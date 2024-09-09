@@ -6,7 +6,7 @@ public class Program6 {
         Scanner myScanner = new Scanner(System.in);
         
         double radius = 0;
-        double pi = 3.14159;
+        final double pi = 3.14159;
         
         System.out.println("Enter your radius:");
         radius = myScanner.nextDouble();
